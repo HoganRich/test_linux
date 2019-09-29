@@ -1,0 +1,72 @@
+/* pages/my_collection/my_collection.wxss */
+.page{
+  background-color: #ececec;
+}
+.item{
+  background-color:white;
+  margin: 30rpx auto;
+  width: 95%;
+  height: 250rpx;
+  border-radius: 10rpx;
+}
+/* 每项的上半部分 */
+.iteminfoa{
+  height: 70%;
+  width: 100%;
+  border-bottom:1rpx solid #ececec;
+  font-size: 30rpx;
+}
+.lefttop{
+  float:left;
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+  width:55%;
+}
+.righttop{
+  float:right;
+  margin-top: 50rpx;
+  margin-right: 30rpx;
+  text-align: right;
+  font-size: 35rpx;
+  color: red;
+}
+
+/* 每项的下半部分 */
+.iteminfob{
+    margin-top: 20rpx;
+    height: 30%;
+    color: #D8BFD8;
+}
+.postnum{
+  font-size: 30rpx;
+  float: right;
+  margin-right: 30rpx;
+  color: #666;
+}
+.taskstatus{
+  font-size: 30rpx;
+  float:right;
+  color: #666;
+  margin-right: 30rpx;
+}
+.bottom-tips{
+  height: 80rpx;
+  text-align: center;
+  color: #666;
+}
+.scroll-top {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+  background-color: #1e9fff;
+  position: fixed;
+  right: 30rpx;
+  bottom: 60rpx;
+  opacity: 0.8;
+  box-shadow: 3rpx 5rpx 20rpx rgb(85, 84, 84);
+}
+.top-img {
+  width: 60rpx;
+  height: 60rpx;
+  padding: 20rpx;
+}

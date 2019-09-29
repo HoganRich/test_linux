@@ -1,0 +1,26 @@
+<!--pages/my_info/my_info.wxml-->
+<view class="page">
+  <scroll-view class="looplistscroll" scroll-y scroll-top="{{scrollTop}}" style="height:100vh;">
+    <view class="looplist" wx:key="{{index}}" wx:for="{{notifylist}}">
+      <view class="view" data-index="{{index}}" bindtap='getmoreinfo' bindlongpress='longPress'>
+        <view class="top" style="color:{{item.ischeck==0?'black':'#666'}}">
+          <text class="info" selectable='true' style='line-height:50rpx;'>\n{{item.notifyinfo}}</text>
+          <view class="releasetimeandfrom" style='line-height:80rpx;'>消息时间：{{item.notifytime}}</view>
+        </view>
+        <view class="foot" style="color:{{item.ischeck==0?'#1e9fff':'#666'}}">
+          <view class="getmore" style='line-height:80rpx;'>{{item.ischeck==0?"点击查阅":"已查阅"}}</view>
+        </view>
+      </view>
+    </view>
+    <!-- 没有更多数据时加载 -->
+    <view wx:if="{{notifylist.length==0}}" class='bottom-tips'>
+      <text style='line-height:80rpx;'>亲！您还没有收到任何通知哦</text>
+    </view>
+  </scroll-view>
+
+  <view class='scroll-top' bindtap='scrollToTop'>
+    <image src='../../image/top.png' class='top-img'></image>
+  </view>
+
+
+</view>

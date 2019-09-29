@@ -1,0 +1,36 @@
+<!--pages/my_participation/my_participation.wxml-->
+<view class="page">
+  <scroll-view
+      scroll-y
+      style="height: {{scrollHeight}}px;"
+      scroll-top="{{scrollTop}}"
+  >
+
+  <view class="item" wx:key="{{index}}" wx:for="{{list}}" >
+   <view data-item="{{item}}" data-index="{{index}}" bindlongpress='longPress' style='height:100%;' bindtap='to_task_detail'>
+    <view class="iteminfoa"> 
+        <view class="lefttop">
+          <rich-text class="leftpart">{{item.task_title}}</rich-text>
+        </view>   
+        <view class="righttop"> 
+          <text class="rightpart">￥{{item.task_price}}</text>  
+        </view>   
+    </view>
+    <view class="iteminfob">
+      <text class="taskstatus" >状态：{{item.status}}</text>
+      <text class="taskstatus" style='float:left;margin-left:20rpx;'>{{item.post_num}}人投递</text>
+    </view>
+   </view>
+  </view>
+
+ <view wx:if="{{list.length==0}}"  class='bottom-tips'>
+    <text style='line-height:80rpx;'>亲！您还没有参与任何任务哦</text>
+  </view>
+  </scroll-view>
+  <view class='scroll-top' bindtap='scrollToTop'>
+    <image src='../../image/top.png' class='top-img'></image>
+  </view>
+
+</view>
+ 
+

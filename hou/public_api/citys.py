@@ -1,0 +1,2074 @@
+CITYS = [{
+    'cityId': 0,
+    'cityName': '不限'
+}, {
+    'cityId': -1,
+    'cityName': 'A'
+}, {
+    'cityId': 9545,
+    'cityName': '阿拉尔'
+}, {
+    'cityId': 547,
+    'cityName': '安宁'
+}, {
+    'cityId': 7100,
+    'cityName': '安溪'
+}, {
+    'cityId': 3442,
+    'cityName': '安陆'
+}, {
+    'cityId': 370,
+    'cityName': '安丘'
+}, {
+    'cityId': 523,
+    'cityName': '鞍山'
+}, {
+    'cityId': 18804,
+    'cityName': '阿勒泰'
+}, {
+    'cityId': 1096,
+    'cityName': '安阳'
+}, {
+    'cityId': 3251,
+    'cityName': '安庆'
+}, {
+    'cityId': 3157,
+    'cityName': '安康'
+}, {
+    'cityId': 9384,
+    'cityName': '澳门'
+}, {
+    'cityId': 9510,
+    'cityName': '阿克苏'
+}, {
+    'cityId': 9814,
+    'cityName': '阿坝'
+}, {
+    'cityId': 9686,
+    'cityName': '阿里'
+}, {
+    'cityId': 10078,
+    'cityName': '阿拉善盟'
+}, {
+    'cityId': 7458,
+    'cityName': '安顺'
+}, {
+    'cityId': 836,
+    'cityName': '安吉'
+}, {
+    'cityId': 6806,
+    'cityName': '安岳'
+}, {
+    'cityId': -1,
+    'cityName': 'B'
+}, {
+    'cityId': 10307,
+    'cityName': '白银'
+}, {
+    'cityId': 1,
+    'cityName': '北京'
+}, {
+    'cityId': 726,
+    'cityName': '博罗'
+}, {
+    'cityId': 10105,
+    'cityName': '北票'
+}, {
+    'cityId': 9151,
+    'cityName': '北流'
+}, {
+    'cityId': 949,
+    'cityName': '博兴'
+}, {
+    'cityId': 775,
+    'cityName': '霸州'
+}, {
+    'cityId': 9154,
+    'cityName': '博白'
+}, {
+    'cityId': 424,
+    'cityName': '保定'
+}, {
+    'cityId': 801,
+    'cityName': '包头'
+}, {
+    'cityId': 944,
+    'cityName': '滨州'
+}, {
+    'cityId': 2044,
+    'cityName': '宝鸡'
+}, {
+    'cityId': 10367,
+    'cityName': '保亭'
+}, {
+    'cityId': 10375,
+    'cityName': '白沙'
+}, {
+    'cityId': 3470,
+    'cityName': '蚌埠'
+}, {
+    'cityId': 5845,
+    'cityName': '本溪'
+}, {
+    'cityId': 5918,
+    'cityName': '白城'
+}, {
+    'cityId': 2329,
+    'cityName': '亳州'
+}, {
+    'cityId': 2390,
+    'cityName': '保山'
+}, {
+    'cityId': 9533,
+    'cityName': '巴音郭楞'
+}, {
+    'cityId': 9808,
+    'cityName': '巴中'
+}, {
+    'cityId': 9539,
+    'cityName': '博尔塔拉'
+}, {
+    'cityId': 10063,
+    'cityName': '巴彦淖尔市'
+}, {
+    'cityId': 10177,
+    'cityName': '白山'
+}, {
+    'cityId': 10553,
+    'cityName': '毕节'
+}, {
+    'cityId': 10506,
+    'cityName': '百色'
+}, {
+    'cityId': 10510,
+    'cityName': '北海'
+}, {
+    'cityId': 14451,
+    'cityName': '宝应县'
+}, {
+    'cityId': -1,
+    'cityName': 'C'
+}, {
+    'cityId': 5334,
+    'cityName': '慈溪'
+}, {
+    'cityId': 659,
+    'cityName': '沧县'
+}, {
+    'cityId': 834,
+    'cityName': '长兴'
+}, {
+    'cityId': 2393,
+    'cityName': '楚雄'
+}, {
+    'cityId': 6791,
+    'cityName': '慈利'
+}, {
+    'cityId': 887,
+    'cityName': '茌平'
+}, {
+    'cityId': 921,
+    'cityName': '常宁'
+}, {
+    'cityId': 9062,
+    'cityName': '长岭'
+}, {
+    'cityId': 9619,
+    'cityName': '赤壁'
+}, {
+    'cityId': 5699,
+    'cityName': '桂阳'
+}, {
+    'cityId': 7148,
+    'cityName': '长宁'
+}, {
+    'cityId': 2119,
+    'cityName': '岑溪'
+}, {
+    'cityId': 102,
+    'cityName': '成都'
+}, {
+    'cityId': 414,
+    'cityName': '长沙'
+}, {
+    'cityId': 37,
+    'cityName': '重庆'
+}, {
+    'cityId': 373,
+    'cityName': '昌乐'
+}, {
+    'cityId': 372,
+    'cityName': '昌邑'
+}, {
+    'cityId': 319,
+    'cityName': '长春'
+}, {
+    'cityId': 591,
+    'cityName': '磁县'
+}, {
+    'cityId': 463,
+    'cityName': '常州'
+}, {
+    'cityId': 652,
+    'cityName': '沧州'
+}, {
+    'cityId': 10316,
+    'cityName': '澄迈'
+}, {
+    'cityId': 8572,
+    'cityName': '昌吉'
+}, {
+    'cityId': 6700,
+    'cityName': '赤峰'
+}, {
+    'cityId': 872,
+    'cityName': '常德'
+}, {
+    'cityId': 5695,
+    'cityName': '郴州'
+}, {
+    'cityId': 6760,
+    'cityName': '承德'
+}, {
+    'cityId': 6921,
+    'cityName': '长治'
+}, {
+    'cityId': 9329,
+    'cityName': '长葛'
+}, {
+    'cityId': 9636,
+    'cityName': '昌都'
+}, {
+    'cityId': 10102,
+    'cityName': '朝阳'
+}, {
+    'cityId': 10224,
+    'cityName': '巢湖'
+}, {
+    'cityId': 10254,
+    'cityName': '池州'
+}, {
+    'cityId': 10260,
+    'cityName': '滁州'
+}, {
+    'cityId': 10456,
+    'cityName': '潮州'
+}, {
+    'cityId': 10514,
+    'cityName': '崇左'
+}, {
+    'cityId': 7579,
+    'cityName': '苍南'
+}, {
+    'cityId': 5638,
+    'cityName': '曹县'
+}, {
+    'cityId': 5936,
+    'cityName': '长垣'
+}, {
+    'cityId': -1,
+    'cityName': 'D'
+}, {
+    'cityId': 5948,
+    'cityName': '定边'
+}, {
+    'cityId': 615,
+    'cityName': '东台'
+}, {
+    'cityId': 648,
+    'cityName': '丹阳'
+}, {
+    'cityId': 835,
+    'cityName': '德清'
+}, {
+    'cityId': 2147,
+    'cityName': '东海'
+}, {
+    'cityId': 2373,
+    'cityName': '德阳'
+}, {
+    'cityId': 2398,
+    'cityName': '大理'
+}, {
+    'cityId': 10256,
+    'cityName': '东至'
+}, {
+    'cityId': 10384,
+    'cityName': '敦煌'
+}, {
+    'cityId': 536,
+    'cityName': '东阳'
+}, {
+    'cityId': 692,
+    'cityName': '东平'
+}, {
+    'cityId': 2071,
+    'cityName': '灯塔'
+}, {
+    'cityId': 3437,
+    'cityName': '大悟'
+}, {
+    'cityId': 9805,
+    'cityName': '大竹'
+}, {
+    'cityId': 595,
+    'cityName': '邓州'
+}, {
+    'cityId': 5641,
+    'cityName': '东明'
+}, {
+    'cityId': 413,
+    'cityName': '东莞'
+}, {
+    'cityId': 147,
+    'cityName': '大连'
+}, {
+    'cityId': 728,
+    'cityName': '德州'
+}, {
+    'cityId': 865,
+    'cityName': '当阳'
+}, {
+    'cityId': 623,
+    'cityName': '东营'
+}, {
+    'cityId': 375,
+    'cityName': '大庆'
+}, {
+    'cityId': 10244,
+    'cityName': '东方'
+}, {
+    'cityId': 10297,
+    'cityName': '定安'
+}, {
+    'cityId': 10390,
+    'cityName': '儋州'
+}, {
+    'cityId': 8408,
+    'cityName': '定州'
+}, {
+    'cityId': 9875,
+    'cityName': '大兴安岭'
+}, {
+    'cityId': 3445,
+    'cityName': '丹东'
+}, {
+    'cityId': 6964,
+    'cityName': '大同'
+}, {
+    'cityId': 9417,
+    'cityName': '迪庆'
+}, {
+    'cityId': 9422,
+    'cityName': '德宏'
+}, {
+    'cityId': 9799,
+    'cityName': '达州'
+}, {
+    'cityId': 10320,
+    'cityName': '定西'
+}, {
+    'cityId': 11254,
+    'cityName': '大丰'
+}, {
+    'cityId': -1,
+    'cityName': 'E'
+}, {
+    'cityId': 2302,
+    'cityName': '恩施'
+}, {
+    'cityId': 9702,
+    'cityName': '鄂州'
+}, {
+    'cityId': 2037,
+    'cityName': '鄂尔多斯'
+}, {
+    'cityId': -1,
+    'cityName': 'F'
+}, {
+    'cityId': 5945,
+    'cityName': '府谷'
+}, {
+    'cityId': 2325,
+    'cityName': '阜阳'
+}, {
+    'cityId': 5711,
+    'cityName': '丰城'
+}, {
+    'cityId': 7971,
+    'cityName': '福安'
+}, {
+    'cityId': 9049,
+    'cityName': '浮梁'
+}, {
+    'cityId': 7972,
+    'cityName': '福鼎'
+}, {
+    'cityId': 9063,
+    'cityName': '扶余'
+}, {
+    'cityId': 10114,
+    'cityName': '分宜'
+}, {
+    'cityId': 620,
+    'cityName': '阜宁'
+}, {
+    'cityId': 3450,
+    'cityName': '凤城'
+}, {
+    'cityId': 7285,
+    'cityName': '范县'
+}, {
+    'cityId': 304,
+    'cityName': '福州'
+}, {
+    'cityId': 222,
+    'cityName': '佛山'
+}, {
+    'cityId': 5722,
+    'cityName': '抚顺'
+}, {
+    'cityId': 10093,
+    'cityName': '阜新'
+}, {
+    'cityId': 10138,
+    'cityName': '抚州'
+}, {
+    'cityId': 10530,
+    'cityName': '防城港'
+}, {
+    'cityId': 690,
+    'cityName': '肥城'
+}, {
+    'cityId': -1,
+    'cityName': 'G'
+}, {
+    'cityId': 3,
+    'cityName': '广州'
+}, {
+    'cityId': 2363,
+    'cityName': '赣州'
+}, {
+    'cityId': 2381,
+    'cityName': '广安'
+}, {
+    'cityId': 2421,
+    'cityName': '固原'
+}, {
+    'cityId': 9631,
+    'cityName': '广水'
+}, {
+    'cityId': 899,
+    'cityName': '谷城'
+}, {
+    'cityId': 3354,
+    'cityName': '高平'
+}, {
+    'cityId': 9908,
+    'cityName': '格尔木'
+}, {
+    'cityId': 5712,
+    'cityName': '高安'
+}, {
+    'cityId': 6774,
+    'cityName': '桂平'
+}, {
+    'cityId': 8676,
+    'cityName': '固始'
+}, {
+    'cityId': 890,
+    'cityName': '冠县'
+}, {
+    'cityId': 885,
+    'cityName': '高唐'
+}, {
+    'cityId': 9692,
+    'cityName': '改则'
+}, {
+    'cityId': 2015,
+    'cityName': '贵阳'
+}, {
+    'cityId': 8684,
+    'cityName': '馆陶'
+}, {
+    'cityId': 6770,
+    'cityName': '贵港'
+}, {
+    'cityId': 9751,
+    'cityName': '广元'
+}, {
+    'cityId': 9760,
+    'cityName': '甘孜'
+}, {
+    'cityId': 9940,
+    'cityName': '果洛'
+}, {
+    'cityId': 10337,
+    'cityName': '甘南'
+}, {
+    'cityId': 627,
+    'cityName': '广饶'
+}, {
+    'cityId': 10171,
+    'cityName': '公主岭'
+}, {
+    'cityId': 8719,
+    'cityName': '广汉'
+}, {
+    'cityId': 2148,
+    'cityName': '灌云'
+}, {
+    'cityId': 2150,
+    'cityName': '灌南'
+}, {
+    'cityId': 371,
+    'cityName': '高密'
+}, {
+    'cityId': -1,
+    'cityName': 'H'
+}, {
+    'cityId': 399,
+    'cityName': '海门'
+}, {
+    'cityId': 401,
+    'cityName': '海安'
+}, {
+    'cityId': 500,
+    'cityName': '海宁'
+}, {
+    'cityId': 725,
+    'cityName': '惠东'
+}, {
+    'cityId': 830,
+    'cityName': '华容'
+}, {
+    'cityId': 2299,
+    'cityName': '黄冈'
+}, {
+    'cityId': 2319,
+    'cityName': '淮南'
+}, {
+    'cityId': 2323,
+    'cityName': '黄山'
+}, {
+    'cityId': 2340,
+    'cityName': '河池'
+}, {
+    'cityId': 2344,
+    'cityName': '鹤壁'
+}, {
+    'cityId': 2394,
+    'cityName': '红河'
+}, {
+    'cityId': 9934,
+    'cityName': '海北'
+}, {
+    'cityId': 5405,
+    'cityName': '滑县'
+}, {
+    'cityId': 5735,
+    'cityName': '韩城'
+}, {
+    'cityId': 5637,
+    'cityName': '郓城'
+}, {
+    'cityId': 658,
+    'cityName': '河间'
+}, {
+    'cityId': 79,
+    'cityName': '杭州'
+}, {
+    'cityId': 657,
+    'cityName': '黄骅'
+}, {
+    'cityId': 706,
+    'cityName': '桦甸'
+}, {
+    'cityId': 5693,
+    'cityName': '衡东'
+}, {
+    'cityId': 504,
+    'cityName': '海盐'
+}, {
+    'cityId': 8680,
+    'cityName': '淮滨'
+}, {
+    'cityId': 202,
+    'cityName': '哈尔滨'
+}, {
+    'cityId': 2053,
+    'cityName': '海口'
+}, {
+    'cityId': 837,
+    'cityName': '合肥'
+}, {
+    'cityId': 811,
+    'cityName': '呼和浩特'
+}, {
+    'cityId': 722,
+    'cityName': '惠州'
+}, {
+    'cityId': 914,
+    'cityName': '衡阳'
+}, {
+    'cityId': 572,
+    'cityName': '邯郸'
+}, {
+    'cityId': 831,
+    'cityName': '湖州'
+}, {
+    'cityId': 993,
+    'cityName': '衡水'
+}, {
+    'cityId': 7452,
+    'cityName': '哈密'
+}, {
+    'cityId': 9039,
+    'cityName': '鹤岗'
+}, {
+    'cityId': 9858,
+    'cityName': '黑河'
+}, {
+    'cityId': 3163,
+    'cityName': '汉中'
+}, {
+    'cityId': 968,
+    'cityName': '淮安'
+}, {
+    'cityId': 1734,
+    'cityName': '黄石'
+}, {
+    'cityId': 2043,
+    'cityName': '海拉尔'
+}, {
+    'cityId': 5632,
+    'cityName': '菏泽'
+}, {
+    'cityId': 5756,
+    'cityName': '怀化'
+}, {
+    'cityId': 9342,
+    'cityName': '淮北'
+}, {
+    'cityId': 9486,
+    'cityName': '和田'
+}, {
+    'cityId': 9896,
+    'cityName': '黄南'
+}, {
+    'cityId': 9905,
+    'cityName': '海西'
+}, {
+    'cityId': 9921,
+    'cityName': '海东'
+}, {
+    'cityId': 10035,
+    'cityName': '呼伦贝尔'
+}, {
+    'cityId': 10083,
+    'cityName': '葫芦岛'
+}, {
+    'cityId': 10462,
+    'cityName': '河源'
+}, {
+    'cityId': 10541,
+    'cityName': '贺州'
+}, {
+    'cityId': 10567,
+    'cityName': '海南'
+}, {
+    'cityId': 10868,
+    'cityName': '和县'
+}, {
+    'cityId': 11201,
+    'cityName': '霍邱'
+}, {
+    'cityId': 3439,
+    'cityName': '汉川'
+}, {
+    'cityId': 9444,
+    'cityName': '海丰'
+}, {
+    'cityId': 7335,
+    'cityName': '桓台'
+}, {
+    'cityId': -1,
+    'cityName': 'J'
+}, {
+    'cityId': 5947,
+    'cityName': '靖边'
+}, {
+    'cityId': 7428,
+    'cityName': '金昌'
+}, {
+    'cityId': 297,
+    'cityName': '晋江'
+}, {
+    'cityId': 618,
+    'cityName': '建湖'
+}, {
+    'cityId': 698,
+    'cityName': '靖江'
+}, {
+    'cityId': 2296,
+    'cityName': '荆门'
+}, {
+    'cityId': 2354,
+    'cityName': '锦州'
+}, {
+    'cityId': 2360,
+    'cityName': '景德镇'
+}, {
+    'cityId': 2364,
+    'cityName': '吉安'
+}, {
+    'cityId': 14320,
+    'cityName': '嘉善'
+}, {
+    'cityId': 9095,
+    'cityName': '京山'
+}, {
+    'cityId': 5635,
+    'cityName': '鄄城'
+}, {
+    'cityId': 6796,
+    'cityName': '江山'
+}, {
+    'cityId': 9620,
+    'cityName': '嘉鱼'
+}, {
+    'cityId': 9169,
+    'cityName': '浚县'
+}, {
+    'cityId': 677,
+    'cityName': '进贤'
+}, {
+    'cityId': 650,
+    'cityName': '句容'
+}, {
+    'cityId': 5640,
+    'cityName': '巨野'
+}, {
+    'cityId': 975,
+    'cityName': '金湖'
+}, {
+    'cityId': 265,
+    'cityName': '济南'
+}, {
+    'cityId': 450,
+    'cityName': '济宁'
+}, {
+    'cityId': 497,
+    'cityName': '嘉兴'
+}, {
+    'cityId': 629,
+    'cityName': '江门'
+}, {
+    'cityId': 531,
+    'cityName': '金华'
+}, {
+    'cityId': 700,
+    'cityName': '吉林'
+}, {
+    'cityId': 927,
+    'cityName': '揭阳'
+}, {
+    'cityId': 8832,
+    'cityName': '晋中'
+}, {
+    'cityId': 9894,
+    'cityName': '济源'
+}, {
+    'cityId': 2247,
+    'cityName': '九江'
+}, {
+    'cityId': 3266,
+    'cityName': '焦作'
+}, {
+    'cityId': 3350,
+    'cityName': '晋城'
+}, {
+    'cityId': 3479,
+    'cityName': '荆州'
+}, {
+    'cityId': 6776,
+    'cityName': '佳木斯'
+}, {
+    'cityId': 7289,
+    'cityName': '鸡西'
+}, {
+    'cityId': 10356,
+    'cityName': '嘉峪关'
+}, {
+    'cityId': 10381,
+    'cityName': '酒泉'
+}, {
+    'cityId': 468,
+    'cityName': '金坛'
+}, {
+    'cityId': 697,
+    'cityName': '姜堰'
+}, {
+    'cityId': 6805,
+    'cityName': '简阳'
+}, {
+    'cityId': 3180,
+    'cityName': '莒县'
+}, {
+    'cityId': -1,
+    'cityName': 'K'
+}, {
+    'cityId': 6733,
+    'cityName': '开原'
+}, {
+    'cityId': 2342,
+    'cityName': '开封'
+}, {
+    'cityId': 634,
+    'cityName': '开平'
+}, {
+    'cityId': 541,
+    'cityName': '昆明'
+}, {
+    'cityId': 2042,
+    'cityName': '克拉玛依'
+}, {
+    'cityId': 9311,
+    'cityName': '喀什'
+}, {
+    'cityId': 9527,
+    'cityName': '克孜勒苏'
+}, {
+    'cityId': 11288,
+    'cityName': '垦利'
+}, {
+    'cityId': -1,
+    'cityName': 'L'
+}, {
+    'cityId': 469,
+    'cityName': '溧阳'
+}, {
+    'cityId': 2292,
+    'cityName': '莱芜'
+}, {
+    'cityId': 2328,
+    'cityName': '六安'
+}, {
+    'cityId': 2372,
+    'cityName': '泸州'
+}, {
+    'cityId': 2392,
+    'cityName': '丽江'
+}, {
+    'cityId': 233,
+    'cityName': '龙口'
+}, {
+    'cityId': 730,
+    'cityName': '乐陵'
+}, {
+    'cityId': 9460,
+    'cityName': '冷水江'
+}, {
+    'cityId': 9443,
+    'cityName': '陆丰'
+}, {
+    'cityId': 9461,
+    'cityName': '涟源'
+}, {
+    'cityId': 884,
+    'cityName': '临清'
+}, {
+    'cityId': 11192,
+    'cityName': '新安'
+}, {
+    'cityId': 876,
+    'cityName': '澧县'
+}, {
+    'cityId': 3225,
+    'cityName': '柳林'
+}, {
+    'cityId': 628,
+    'cityName': '利津'
+}, {
+    'cityId': 10172,
+    'cityName': '梨树县'
+}, {
+    'cityId': 7066,
+    'cityName': '滦南'
+}, {
+    'cityId': 462,
+    'cityName': '梁山'
+}, {
+    'cityId': 739,
+    'cityName': '临邑'
+}, {
+    'cityId': 895,
+    'cityName': '老河口'
+}, {
+    'cityId': 939,
+    'cityName': '鹿邑'
+}, {
+    'cityId': 1101,
+    'cityName': '林州'
+}, {
+    'cityId': 5393,
+    'cityName': '固安'
+}, {
+    'cityId': 11194,
+    'cityName': '宜阳'
+}, {
+    'cityId': 7393,
+    'cityName': '兰考'
+}, {
+    'cityId': 234,
+    'cityName': '莱阳'
+}, {
+    'cityId': 374,
+    'cityName': '临朐'
+}, {
+    'cityId': 952,
+    'cityName': '兰州'
+}, {
+    'cityId': 556,
+    'cityName': '洛阳'
+}, {
+    'cityId': 772,
+    'cityName': '廊坊'
+}, {
+    'cityId': 505,
+    'cityName': '临沂'
+}, {
+    'cityId': 882,
+    'cityName': '聊城'
+}, {
+    'cityId': 2049,
+    'cityName': '连云港'
+}, {
+    'cityId': 10166,
+    'cityName': '陵水'
+}, {
+    'cityId': 10500,
+    'cityName': '六盘水'
+}, {
+    'cityId': 7923,
+    'cityName': '丽水'
+}, {
+    'cityId': 9179,
+    'cityName': '临猗'
+}, {
+    'cityId': 9455,
+    'cityName': '娄底'
+}, {
+    'cityId': 3222,
+    'cityName': '吕梁'
+}, {
+    'cityId': 3237,
+    'cityName': '乐山'
+}, {
+    'cityId': 2038,
+    'cityName': '辽阳'
+}, {
+    'cityId': 2501,
+    'cityName': '辽源'
+}, {
+    'cityId': 2055,
+    'cityName': '拉萨'
+}, {
+    'cityId': 5669,
+    'cityName': '临汾'
+}, {
+    'cityId': 6752,
+    'cityName': '龙岩'
+}, {
+    'cityId': 7112,
+    'cityName': '临夏'
+}, {
+    'cityId': 7133,
+    'cityName': '柳州'
+}, {
+    'cityId': 2347,
+    'cityName': '漯河'
+}, {
+    'cityId': 9407,
+    'cityName': '临沧'
+}, {
+    'cityId': 9715,
+    'cityName': '凉山'
+}, {
+    'cityId': 9635,
+    'cityName': '林芝'
+}, {
+    'cityId': 10409,
+    'cityName': '陇南'
+}, {
+    'cityId': 10549,
+    'cityName': '来宾'
+}, {
+    'cityId': 12730,
+    'cityName': '燕郊'
+}, {
+    'cityId': 235,
+    'cityName': '莱州'
+}, {
+    'cityId': 407,
+    'cityName': '临海'
+}, {
+    'cityId': 9307,
+    'cityName': '灵宝'
+}, {
+    'cityId': 9048,
+    'cityName': '乐平'
+}, {
+    'cityId': 713,
+    'cityName': '龙海'
+}, {
+    'cityId': 1091,
+    'cityName': '醴陵'
+}, {
+    'cityId': -1,
+    'cityName': 'M'
+}, {
+    'cityId': 7122,
+    'cityName': '孟津'
+}, {
+    'cityId': 10160,
+    'cityName': '梅河口'
+}, {
+    'cityId': 3267,
+    'cityName': '孟州'
+}, {
+    'cityId': 8870,
+    'cityName': '弥勒'
+}, {
+    'cityId': 1057,
+    'cityName': '绵阳'
+}, {
+    'cityId': 679,
+    'cityName': '茂名'
+}, {
+    'cityId': 8531,
+    'cityName': '明港'
+}, {
+    'cityId': 2039,
+    'cityName': '马鞍山'
+}, {
+    'cityId': 3489,
+    'cityName': '牡丹江'
+}, {
+    'cityId': 9374,
+    'cityName': '梅州'
+}, {
+    'cityId': 9704,
+    'cityName': '眉山'
+}, {
+    'cityId': -1,
+    'cityName': 'N'
+}, {
+    'cityId': 293,
+    'cityName': '南安'
+}, {
+    'cityId': 898,
+    'cityName': '南漳'
+}, {
+    'cityId': 2378,
+    'cityName': '南充'
+}, {
+    'cityId': 5645,
+    'cityName': '宁国'
+}, {
+    'cityId': 10142,
+    'cityName': '南城'
+}, {
+    'cityId': 10198,
+    'cityName': '南县'
+}, {
+    'cityId': 733,
+    'cityName': '宁津'
+}, {
+    'cityId': 691,
+    'cityName': '宁阳'
+}, {
+    'cityId': 172,
+    'cityName': '南京'
+}, {
+    'cityId': 669,
+    'cityName': '南昌'
+}, {
+    'cityId': 135,
+    'cityName': '宁波'
+}, {
+    'cityId': 845,
+    'cityName': '南宁'
+}, {
+    'cityId': 592,
+    'cityName': '南阳'
+}, {
+    'cityId': 394,
+    'cityName': '南通'
+}, {
+    'cityId': 7969,
+    'cityName': '宁德'
+}, {
+    'cityId': 5928,
+    'cityName': '内江'
+}, {
+    'cityId': 9452,
+    'cityName': '怒江'
+}, {
+    'cityId': 9625,
+    'cityName': '那曲'
+}, {
+    'cityId': 10285,
+    'cityName': '南平'
+}, {
+    'cityId': -1,
+    'cityName': 'P'
+}, {
+    'cityId': 11325,
+    'cityName': '沛县'
+}, {
+    'cityId': 477,
+    'cityName': '邳州'
+}, {
+    'cityId': 2371,
+    'cityName': '攀枝花'
+}, {
+    'cityId': 501,
+    'cityName': '平湖'
+}, {
+    'cityId': 708,
+    'cityName': '磐石'
+}, {
+    'cityId': 7578,
+    'cityName': '平阳'
+}, {
+    'cityId': 514,
+    'cityName': '平邑'
+}, {
+    'cityId': 1005,
+    'cityName': '平顶山'
+}, {
+    'cityId': 2041,
+    'cityName': '盘锦'
+}, {
+    'cityId': 2248,
+    'cityName': '萍乡'
+}, {
+    'cityId': 7154,
+    'cityName': '平凉'
+}, {
+    'cityId': 2346,
+    'cityName': '濮阳'
+}, {
+    'cityId': 2429,
+    'cityName': '莆田'
+}, {
+    'cityId': 9429,
+    'cityName': '普洱'
+}, {
+    'cityId': 237,
+    'cityName': '蓬莱'
+}, {
+    'cityId': -1,
+    'cityName': 'Q'
+}, {
+    'cityId': 400,
+    'cityName': '启东'
+}, {
+    'cityId': 2335,
+    'cityName': '钦州'
+}, {
+    'cityId': 2389,
+    'cityName': '曲靖'
+}, {
+    'cityId': 8522,
+    'cityName': '祁阳'
+}, {
+    'cityId': 5690,
+    'cityName': '祁东'
+}, {
+    'cityId': 7061,
+    'cityName': '迁西'
+}, {
+    'cityId': 9170,
+    'cityName': '淇县'
+}, {
+    'cityId': 734,
+    'cityName': '齐河'
+}, {
+    'cityId': 3268,
+    'cityName': '沁阳'
+}, {
+    'cityId': 9806,
+    'cityName': '渠县'
+}, {
+    'cityId': 12631,
+    'cityName': '清镇'
+}, {
+    'cityId': 238,
+    'cityName': '栖霞'
+}, {
+    'cityId': 122,
+    'cityName': '青岛'
+}, {
+    'cityId': 291,
+    'cityName': '泉州'
+}, {
+    'cityId': 1078,
+    'cityName': '秦皇岛'
+}, {
+    'cityId': 10130,
+    'cityName': '琼海'
+}, {
+    'cityId': 10430,
+    'cityName': '黔西南'
+}, {
+    'cityId': 10441,
+    'cityName': '黔南'
+}, {
+    'cityId': 9846,
+    'cityName': '七台河'
+}, {
+    'cityId': 5853,
+    'cityName': '齐齐哈尔'
+}, {
+    'cityId': 6793,
+    'cityName': '衢州'
+}, {
+    'cityId': 7303,
+    'cityName': '清远'
+}, {
+    'cityId': 9348,
+    'cityName': '黔东南'
+}, {
+    'cityId': 10060,
+    'cityName': '琼中'
+}, {
+    'cityId': 10470,
+    'cityName': '庆阳'
+}, {
+    'cityId': 10884,
+    'cityName': '清徐'
+}, {
+    'cityId': 9655,
+    'cityName': '潜江'
+}, {
+    'cityId': 284,
+    'cityName': '迁安市'
+}, {
+    'cityId': 367,
+    'cityName': '青州'
+}, {
+    'cityId': 7389,
+    'cityName': '杞县'
+}, {
+    'cityId': -1,
+    'cityName': 'R'
+}, {
+    'cityId': 397,
+    'cityName': '如皋'
+}, {
+    'cityId': 402,
+    'cityName': '如东'
+}, {
+    'cityId': 9690,
+    'cityName': '日土'
+}, {
+    'cityId': 3177,
+    'cityName': '日照'
+}, {
+    'cityId': 13894,
+    'cityName': '瑞安'
+}, {
+    'cityId': 9587,
+    'cityName': '日喀则'
+}, {
+    'cityId': 522,
+    'cityName': '荣成'
+}, {
+    'cityId': 1010,
+    'cityName': '汝州'
+}, {
+    'cityId': 9706,
+    'cityName': '仁寿'
+}, {
+    'cityId': 656,
+    'cityName': '任丘'
+}, {
+    'cityId': 520,
+    'cityName': '乳山'
+}, {
+    'cityId': 7628,
+    'cityName': '仁怀'
+}, {
+    'cityId': -1,
+    'cityName': 'S'
+}, {
+    'cityId': 6720,
+    'cityName': '安达'
+}, {
+    'cityId': 6721,
+    'cityName': '肇东'
+}, {
+    'cityId': 2,
+    'cityName': '上海'
+}, {
+    'cityId': 4,
+    'cityName': '深圳'
+}, {
+    'cityId': 296,
+    'cityName': '石狮'
+}, {
+    'cityId': 369,
+    'cityName': '寿光'
+}, {
+    'cityId': 2315,
+    'cityName': '松原'
+}, {
+    'cityId': 2422,
+    'cityName': '三亚'
+}, {
+    'cityId': 9096,
+    'cityName': '沙洋'
+}, {
+    'cityId': 9633,
+    'cityName': '随县'
+}, {
+    'cityId': 936,
+    'cityName': '商水'
+}, {
+    'cityId': 6757,
+    'cityName': '上杭'
+}, {
+    'cityId': 6954,
+    'cityName': '邵东'
+}, {
+    'cityId': 9462,
+    'cityName': '双峰'
+}, {
+    'cityId': 9699,
+    'cityName': '射洪'
+}, {
+    'cityId': 755,
+    'cityName': '沙河'
+}, {
+    'cityId': 3484,
+    'cityName': '松滋'
+}, {
+    'cityId': 6955,
+    'cityName': '邵阳县'
+}, {
+    'cityId': 621,
+    'cityName': '射阳'
+}, {
+    'cityId': 359,
+    'cityName': '嵊州'
+}, {
+    'cityId': 888,
+    'cityName': '莘县'
+}, {
+    'cityId': 942,
+    'cityName': '沈丘'
+}, {
+    'cityId': 1038,
+    'cityName': '睢县'
+}, {
+    'cityId': 14005,
+    'cityName': '涉县'
+}, {
+    'cityId': 5,
+    'cityName': '苏州'
+}, {
+    'cityId': 188,
+    'cityName': '沈阳'
+}, {
+    'cityId': 241,
+    'cityName': '石家庄'
+}, {
+    'cityId': 783,
+    'cityName': '汕头'
+}, {
+    'cityId': 3359,
+    'cityName': '宿州'
+}, {
+    'cityId': 355,
+    'cityName': '绍兴'
+}, {
+    'cityId': 2032,
+    'cityName': '十堰'
+}, {
+    'cityId': 13663,
+    'cityName': '三沙'
+}, {
+    'cityId': 8694,
+    'cityName': '顺德'
+}, {
+    'cityId': 9303,
+    'cityName': '三门峡'
+}, {
+    'cityId': 9836,
+    'cityName': '双鸭山'
+}, {
+    'cityId': 2048,
+    'cityName': '三明'
+}, {
+    'cityId': 2192,
+    'cityName': '韶关'
+}, {
+    'cityId': 1029,
+    'cityName': '商丘'
+}, {
+    'cityId': 5772,
+    'cityName': '沭阳'
+}, {
+    'cityId': 2350,
+    'cityName': '宿迁'
+}, {
+    'cityId': 6718,
+    'cityName': '绥化'
+}, {
+    'cityId': 2303,
+    'cityName': '邵阳'
+}, {
+    'cityId': 9441,
+    'cityName': '汕尾'
+}, {
+    'cityId': 9851,
+    'cityName': '商洛'
+}, {
+    'cityId': 9869,
+    'cityName': '朔州'
+}, {
+    'cityId': 9556,
+    'cityName': '石河子'
+}, {
+    'cityId': 9967,
+    'cityName': '石嘴山'
+}, {
+    'cityId': 9578,
+    'cityName': '山南'
+}, {
+    'cityId': 9695,
+    'cityName': '遂宁'
+}, {
+    'cityId': 10116,
+    'cityName': '上饶'
+}, {
+    'cityId': 10167,
+    'cityName': '四平'
+}, {
+    'cityId': 9630,
+    'cityName': '随州'
+}, {
+    'cityId': 9597,
+    'cityName': '神农架'
+}, {
+    'cityId': 16,
+    'cityName': '昆山'
+}, {
+    'cityId': 5944,
+    'cityName': '神木'
+}, {
+    'cityId': 5959,
+    'cityName': '泗阳'
+}, {
+    'cityId': 5958,
+    'cityName': '泗洪'
+}, {
+    'cityId': 5636,
+    'cityName': '单县'
+}, {
+    'cityId': 776,
+    'cityName': '三河'
+}, {
+    'cityId': -1,
+    'cityName': 'T'
+}, {
+    'cityId': 10267,
+    'cityName': '天长'
+}, {
+    'cityId': 502,
+    'cityName': '桐乡'
+}, {
+    'cityId': 696,
+    'cityName': '泰兴'
+}, {
+    'cityId': 8467,
+    'cityName': '天水'
+}, {
+    'cityId': 510,
+    'cityName': '郯城'
+}, {
+    'cityId': 938,
+    'cityName': '太康'
+}, {
+    'cityId': 7390,
+    'cityName': '通许'
+}, {
+    'cityId': 18,
+    'cityName': '天津'
+}, {
+    'cityId': 740,
+    'cityName': '太原'
+}, {
+    'cityId': 276,
+    'cityName': '唐山'
+}, {
+    'cityId': 18812,
+    'cityName': '塔城'
+}, {
+    'cityId': 686,
+    'cityName': '泰安'
+}, {
+    'cityId': 403,
+    'cityName': '台州'
+}, {
+    'cityId': 10049,
+    'cityName': '屯昌'
+}, {
+    'cityId': 10419,
+    'cityName': '铜仁'
+}, {
+    'cityId': 693,
+    'cityName': '泰州'
+}, {
+    'cityId': 2051,
+    'cityName': '台湾'
+}, {
+    'cityId': 6729,
+    'cityName': '铁岭'
+}, {
+    'cityId': 9464,
+    'cityName': '吐鲁番'
+}, {
+    'cityId': 9829,
+    'cityName': '铜川'
+}, {
+    'cityId': 9563,
+    'cityName': '图木舒克'
+}, {
+    'cityId': 10012,
+    'cityName': '通辽'
+}, {
+    'cityId': 10157,
+    'cityName': '通化'
+}, {
+    'cityId': 10279,
+    'cityName': '铜陵'
+}, {
+    'cityId': 9475,
+    'cityName': '天门'
+}, {
+    'cityId': 11238,
+    'cityName': '台山'
+}, {
+    'cityId': 11271,
+    'cityName': '桐城'
+}, {
+    'cityId': 967,
+    'cityName': '滕州'
+}, {
+    'cityId': -1,
+    'cityName': 'W'
+}, {
+    'cityId': 7362,
+    'cityName': '武穴'
+}, {
+    'cityId': 408,
+    'cityName': '温岭'
+}, {
+    'cityId': 2395,
+    'cityName': '文山'
+}, {
+    'cityId': 2404,
+    'cityName': '乌海'
+}, {
+    'cityId': 10227,
+    'cityName': '无为'
+}, {
+    'cityId': 951,
+    'cityName': '无棣'
+}, {
+    'cityId': 1011,
+    'cityName': '舞钢'
+}, {
+    'cityId': 7391,
+    'cityName': '尉氏'
+}, {
+    'cityId': 158,
+    'cityName': '武汉'
+}, {
+    'cityId': 460,
+    'cityName': '汶上'
+}, {
+    'cityId': 7312,
+    'cityName': '温县'
+}, {
+    'cityId': 14494,
+    'cityName': '武义县'
+}, {
+    'cityId': 459,
+    'cityName': '微山'
+}, {
+    'cityId': 93,
+    'cityName': '无锡'
+}, {
+    'cityId': 362,
+    'cityName': '潍坊'
+}, {
+    'cityId': 984,
+    'cityName': '乌鲁木齐'
+}, {
+    'cityId': 330,
+    'cityName': '温州'
+}, {
+    'cityId': 518,
+    'cityName': '威海'
+}, {
+    'cityId': 9968,
+    'cityName': '文昌'
+}, {
+    'cityId': 10011,
+    'cityName': '万宁'
+}, {
+    'cityId': 9948,
+    'cityName': '五指山'
+}, {
+    'cityId': 2045,
+    'cityName': '芜湖'
+}, {
+    'cityId': 2046,
+    'cityName': '梧州'
+}, {
+    'cityId': 3279,
+    'cityName': '瓦房店'
+}, {
+    'cityId': 5733,
+    'cityName': '渭南'
+}, {
+    'cityId': 9564,
+    'cityName': '五家渠'
+}, {
+    'cityId': 9959,
+    'cityName': '吴忠'
+}, {
+    'cityId': 9998,
+    'cityName': '乌兰察布'
+}, {
+    'cityId': 10443,
+    'cityName': '武威'
+}, {
+    'cityId': 10737,
+    'cityName': '武夷山'
+}, {
+    'cityId': 577,
+    'cityName': '武安'
+}, {
+    'cityId': -1,
+    'cityName': 'X'
+}, {
+    'cityId': 6738,
+    'cityName': '象山'
+}, {
+    'cityId': 478,
+    'cityName': '新沂'
+}, {
+    'cityId': 699,
+    'cityName': '兴化'
+}, {
+    'cityId': 2397,
+    'cityName': '西双版纳'
+}, {
+    'cityId': 3227,
+    'cityName': '孝义'
+}, {
+    'cityId': 7507,
+    'cityName': '宣威'
+}, {
+    'cityId': 3436,
+    'cityName': '孝昌'
+}, {
+    'cityId': 6928,
+    'cityName': '襄垣'
+}, {
+    'cityId': 9803,
+    'cityName': '宣汉'
+}, {
+    'cityId': 828,
+    'cityName': '湘阴'
+}, {
+    'cityId': 483,
+    'cityName': '西安'
+}, {
+    'cityId': 976,
+    'cityName': '盱眙'
+}, {
+    'cityId': 5395,
+    'cityName': '香河'
+}, {
+    'cityId': 361,
+    'cityName': '新昌'
+}, {
+    'cityId': 603,
+    'cityName': '新野'
+}, {
+    'cityId': 619,
+    'cityName': '响水'
+}, {
+    'cityId': 606,
+    'cityName': '厦门'
+}, {
+    'cityId': 471,
+    'cityName': '徐州'
+}, {
+    'cityId': 2047,
+    'cityName': '湘潭'
+}, {
+    'cityId': 891,
+    'cityName': '襄阳'
+}, {
+    'cityId': 1016,
+    'cityName': '新乡'
+}, {
+    'cityId': 7453,
+    'cityName': '咸阳'
+}, {
+    'cityId': 8672,
+    'cityName': '信阳'
+}, {
+    'cityId': 9723,
+    'cityName': '仙桃'
+}, {
+    'cityId': 751,
+    'cityName': '邢台'
+}, {
+    'cityId': 3434,
+    'cityName': '孝感'
+}, {
+    'cityId': 2052,
+    'cityName': '西宁'
+}, {
+    'cityId': 977,
+    'cityName': '许昌'
+}, {
+    'cityId': 2050,
+    'cityName': '香港'
+}, {
+    'cityId': 3453,
+    'cityName': '忻州'
+}, {
+    'cityId': 5633,
+    'cityName': '宣城'
+}, {
+    'cityId': 9983,
+    'cityName': '兴安盟'
+}, {
+    'cityId': 10111,
+    'cityName': '新余'
+}, {
+    'cityId': 10214,
+    'cityName': '湘西'
+}, {
+    'cityId': 9616,
+    'cityName': '咸宁'
+}, {
+    'cityId': 2408,
+    'cityName': '锡林郭勒'
+}, {
+    'cityId': 689,
+    'cityName': '新泰'
+}, {
+    'cityId': 111234,
+    'cityName': '雄安新区'
+}, {
+    'cityId': 935,
+    'cityName': '项城'
+}, {
+    'cityId': -1,
+    'cityName': 'Y'
+}, {
+    'cityId': 7060,
+    'cityName': '玉田'
+}, {
+    'cityId': 649,
+    'cityName': '扬中'
+}, {
+    'cityId': 864,
+    'cityName': '宜都'
+}, {
+    'cityId': 2284,
+    'cityName': '阳江'
+}, {
+    'cityId': 2307,
+    'cityName': '永州'
+}, {
+    'cityId': 2337,
+    'cityName': '玉林'
+}, {
+    'cityId': 10197,
+    'cityName': '沅江'
+}, {
+    'cityId': 731,
+    'cityName': '禹城'
+}, {
+    'cityId': 979,
+    'cityName': '禹州'
+}, {
+    'cityId': 1032,
+    'cityName': '永城'
+}, {
+    'cityId': 2133,
+    'cityName': '永安'
+}, {
+    'cityId': 3210,
+    'cityName': '余江'
+}, {
+    'cityId': 3438,
+    'cityName': '云梦'
+}, {
+    'cityId': 897,
+    'cityName': '宜城'
+}, {
+    'cityId': 5701,
+    'cityName': '永兴'
+}, {
+    'cityId': 886,
+    'cityName': '阳谷'
+}, {
+    'cityId': 9308,
+    'cityName': '渑池'
+}, {
+    'cityId': 7301,
+    'cityName': '沂南'
+}, {
+    'cityId': 7334,
+    'cityName': '沂源'
+}, {
+    'cityId': 11195,
+    'cityName': '伊川'
+}, {
+    'cityId': 7101,
+    'cityName': '永春'
+}, {
+    'cityId': 228,
+    'cityName': '烟台'
+}, {
+    'cityId': 5333,
+    'cityName': '余姚'
+}, {
+    'cityId': 637,
+    'cityName': '扬州'
+}, {
+    'cityId': 858,
+    'cityName': '宜昌'
+}, {
+    'cityId': 613,
+    'cityName': '盐城'
+}, {
+    'cityId': 821,
+    'cityName': '岳阳'
+}, {
+    'cityId': 13895,
+    'cityName': '乐清'
+}, {
+    'cityId': 8556,
+    'cityName': '阳春'
+}, {
+    'cityId': 8738,
+    'cityName': '阳泉'
+}, {
+    'cityId': 8951,
+    'cityName': '延安'
+}, {
+    'cityId': 9101,
+    'cityName': '鄢陵'
+}, {
+    'cityId': 9765,
+    'cityName': '伊春'
+}, {
+    'cityId': 2054,
+    'cityName': '银川'
+}, {
+    'cityId': 3184,
+    'cityName': '延边'
+}, {
+    'cityId': 3209,
+    'cityName': '鹰潭'
+}, {
+    'cityId': 2040,
+    'cityName': '玉溪'
+}, {
+    'cityId': 5653,
+    'cityName': '运城'
+}, {
+    'cityId': 5709,
+    'cityName': '宜春'
+}, {
+    'cityId': 5898,
+    'cityName': '营口'
+}, {
+    'cityId': 5942,
+    'cityName': '榆林'
+}, {
+    'cityId': 2380,
+    'cityName': '宜宾'
+}, {
+    'cityId': 9676,
+    'cityName': '雅安'
+}, {
+    'cityId': 9886,
+    'cityName': '玉树'
+}, {
+    'cityId': 9465,
+    'cityName': '伊犁'
+}, {
+    'cityId': 10193,
+    'cityName': '益阳'
+}, {
+    'cityId': 10480,
+    'cityName': '云浮'
+}, {
+    'cityId': 11053,
+    'cityName': '永新'
+}, {
+    'cityId': 12221,
+    'cityName': '义乌'
+}, {
+    'cityId': 537,
+    'cityName': '永康'
+}, {
+    'cityId': 409,
+    'cityName': '玉环'
+}, {
+    'cityId': 7121,
+    'cityName': '偃师'
+}, {
+    'cityId': -1,
+    'cityName': 'Z'
+}, {
+    'cityId': 357,
+    'cityName': '诸暨'
+}, {
+    'cityId': 283,
+    'cityName': '遵化市'
+}, {
+    'cityId': 382,
+    'cityName': '肇州'
+}, {
+    'cityId': 1095,
+    'cityName': '攸县'
+}, {
+    'cityId': 5698,
+    'cityName': '资兴'
+}, {
+    'cityId': 9097,
+    'cityName': '钟祥'
+}, {
+    'cityId': 5713,
+    'cityName': '樟树'
+}, {
+    'cityId': 717,
+    'cityName': '漳浦'
+}, {
+    'cityId': 3353,
+    'cityName': '泽州'
+}, {
+    'cityId': 342,
+    'cityName': '郑州'
+}, {
+    'cityId': 910,
+    'cityName': '珠海'
+}, {
+    'cityId': 3328,
+    'cityName': '张家口'
+}, {
+    'cityId': 771,
+    'cityName': '中山'
+}, {
+    'cityId': 385,
+    'cityName': '淄博'
+}, {
+    'cityId': 1086,
+    'cityName': '株洲'
+}, {
+    'cityId': 866,
+    'cityName': '枝江'
+}, {
+    'cityId': 710,
+    'cityName': '漳州'
+}, {
+    'cityId': 791,
+    'cityName': '湛江'
+}, {
+    'cityId': 901,
+    'cityName': '肇庆'
+}, {
+    'cityId': 961,
+    'cityName': '枣庄'
+}, {
+    'cityId': 7624,
+    'cityName': '遵义'
+}, {
+    'cityId': 8470,
+    'cityName': '舟山'
+}, {
+    'cityId': 8658,
+    'cityName': '章丘'
+}, {
+    'cityId': 9026,
+    'cityName': '赵县'
+}, {
+    'cityId': 9124,
+    'cityName': '诸城'
+}, {
+    'cityId': 645,
+    'cityName': '镇江'
+}, {
+    'cityId': 933,
+    'cityName': '周口'
+}, {
+    'cityId': 3198,
+    'cityName': '正定'
+}, {
+    'cityId': 1067,
+    'cityName': '驻马店'
+}, {
+    'cityId': 3306,
+    'cityName': '庄河'
+}, {
+    'cityId': 6745,
+    'cityName': '自贡'
+}, {
+    'cityId': 6788,
+    'cityName': '张家界'
+}, {
+    'cityId': 6803,
+    'cityName': '资阳'
+}, {
+    'cityId': 9394,
+    'cityName': '昭通'
+}, {
+    'cityId': 9949,
+    'cityName': '中卫'
+}, {
+    'cityId': 10449,
+    'cityName': '张掖'
+}, {
+    'cityId': 11176,
+    'cityName': '张北'
+}, {
+    'cityId': 946,
+    'cityName': '邹平'
+}, {
+    'cityId': 455,
+    'cityName': '邹城'
+}, {
+    'cityId': 428,
+    'cityName': '涿州'
+}, {
+    'cityId': 3325,
+    'cityName': '招远'
+}, {
+    'cityId': 896,
+    'cityName': '枣阳'
+}]

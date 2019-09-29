@@ -1,0 +1,38 @@
+.logo{
+  width: 120rpx;
+  height: 120rpx;
+  margin-top: 15%;
+  margin-left: 40%;
+  padding: 20rpx;
+  border: 1px solid #ECECEC;
+  border-radius: 30rpx;
+  box-shadow: 0rpx 8rpx 5rpx #ECECEC;
+}
+.app_name{
+  text-align: center;
+  color: #666;
+  margin-top: 30rpx;
+}
+.co_name{
+    text-align: center;
+  color: #666;
+  font-size:12px;
+  margin-top: 20rpx;
+}
+.tips{
+  margin-top: 50rpx;
+  margin-left: 50rpx;
+}
+.info_list{
+  margin-top: 30rpx;
+  font-size: 12px;
+  margin-left: 55rpx;
+  color: #666;  
+}
+button{
+  margin-top: 30rpx;
+  width: 90%;
+  margin-left: 5%;
+  line-height: 100rpx;
+  height: 100rpx;
+}

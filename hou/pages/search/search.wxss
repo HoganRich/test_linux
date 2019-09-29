@@ -1,0 +1,103 @@
+/* pages/search/search.wxss */
+.page{
+  background-color: #FFFFFF;
+}
+.head{
+  width: 100%;
+  background-color: #FFFFFF;
+}
+.search-view{
+  width: 85%;
+  margin: 50rpx auto;
+  border-radius: 50rpx;
+  height:70rpx;
+  background: #ECECEC;
+  opacity: 0.8;
+  
+}
+
+.search-icon{
+  width: 40rpx;
+  float:left ;
+  height: 40rpx;
+  margin-left: 30rpx;
+  margin-right: 10rpx;
+  margin-top:15rpx;
+}
+.search-input{
+  margin-left: 1%;
+  width: 70%;
+  height: 70rpx;
+}
+.placeholder-text{
+  height: 70rpx;
+  font-size: 14px;
+  color: rgb(87, 83, 83);
+}
+.suggestion{
+   /* margin: 20rpx 90rpx; */
+   width: 90%;
+   margin-left: 90rpx;
+   color: #666;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+}
+.historysearch text{
+   margin-left:90rpx; 
+   color: #666;
+}
+.historysearch,.keynameitem{
+  width: 85%;
+  line-height: 18px;
+  margin-top: 50rpx;
+}
+.del-icon{
+  width: 20px;
+  height: 20px;
+  float:right;
+}
+.keynameitem text{
+  margin-left: 90rpx;
+  color: #666;
+  display:inline-block;
+  height: 50rpx;
+  width: 70%;
+  /* 溢出省略号 */
+  /* overflow: hidden; */
+  /* text-overflow:ellipsis; */
+  /* white-space:nowrap */
+  /* 溢出换行 */
+  word-wrap:break-word
+  
+}
+.can-icon{
+  float: right;
+  width: 20px;
+  height: 20px;
+}
+.cancel{
+  height: 100%;
+  float: right;
+  margin-top: -55rpx;
+  margin-right: 30rpx;
+  color: #1E9FFF;
+}
+
+
+.task-item{
+  width: auto;
+  height: 45rpx;
+  text-align: center;
+  background-color: #ececec;
+  border-radius: 5px;
+  padding: 10rpx;
+  margin-right: 30rpx;
+  margin-top: 15rpx;
+}
+.recommend-view{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  margin-top: 30rpx;
+}

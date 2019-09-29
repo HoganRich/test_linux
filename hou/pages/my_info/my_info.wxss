@@ -1,0 +1,44 @@
+/* pages/my_info/my_info.wxss */
+.looplist{
+  margin: 30rpx auto;
+  width: 95%;
+  font-size: 30rpx;
+  background-color: white;
+  border-radius: 10rpx;
+}
+.view{
+  width: 90%;
+  margin: auto;
+}
+/* 每条消息的头部 */
+.top{
+  line-height: 1.8;
+  border-bottom: 1px solid #ECECEC;
+ 
+}
+/* 每条消息的底部 */
+.foot{
+  line-height: 2;
+  text-align: center;
+}
+.bottom-tips{
+  height: 80rpx;
+  text-align: center;
+  color: #666;
+}
+.scroll-top {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+  background-color: #1e9fff;
+  position: fixed;
+  right: 30rpx;
+  bottom: 60rpx;
+  opacity: 0.8;
+  box-shadow: 3rpx 5rpx 20rpx rgb(85, 84, 84);
+}
+.top-img {
+  width: 60rpx;
+  height: 60rpx;
+  padding: 20rpx;
+}

@@ -1,0 +1,49 @@
+/* pages/my_collection/my_collection.wxss */
+.page{
+  background-color: #ececec;
+}
+.item{
+  background-color:white;
+  margin: 30rpx auto;
+  width: 95%;
+  height: 300rpx;
+  border-radius: 10rpx;
+}
+/* 每项的上半部分 */
+.iteminfoa{
+  height: 70%;
+  width: 100%;
+  border-bottom:1rpx solid #ececec;
+  font-size: 30rpx;
+}
+.lefttop{
+  float:left;
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+  width:55%;
+}
+.righttop{
+  float:right;
+  margin-top: 30rpx;
+  margin-right: 30rpx;
+  text-align: right;
+  font-size: 35rpx;
+  color: red;
+}
+
+/* 每项的下半部分 */
+.iteminfob{
+    margin-top: 10rpx;
+    height: 30%;
+    color: #6666;
+}
+.postnum{
+  font-size: 30rpx;
+  float: left;
+  margin-left: 30rpx;
+}
+.taskstatus{
+  font-size: 30rpx;
+  float:right;
+  margin-right: 30rpx;
+}

@@ -1,0 +1,111 @@
+/* pages/task_detail/task_detail.wxss */
+
+.user-info {
+  width: 100%;
+  height: 150rpx;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.hr {
+  width: 95%;
+  margin-left: 2.5%;
+  height: 1rpx;
+  background-color: #ececec;
+}
+
+.user-avatar {
+  margin-top: 25rpx;
+  margin-left: 50rpx;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+
+.user-nickame {
+  color: #666;
+  line-height: 150rpx;
+  margin-left: 15rpx;
+}
+
+.credit-score {
+  margin-top: 50rpx;
+  width: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  height: 50rpx;
+  color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 30rpx #1e9fff;
+  background-color: #1e9fff;
+}
+
+.task-detail-view {
+  width: 100%;
+  background-color: #fff;
+  min-height: 800rpx;
+  text-align: center;
+}
+
+.task-title {
+  line-height: 80rpx;
+  font-weight: bold;
+  color: #666;
+}
+
+.task-info {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 20rpx;
+  text-align: left;
+}
+
+.task-info-text {
+  line-height: 50rpx;
+  color: #666;
+}
+
+.bottom-view {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  border-top: 1rpx solid #ececec;
+}
+
+.bottom-item {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
+.bottom-icon {
+  margin-top: 17rpx;
+  margin-left: 24vw;
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.bottom-collect {
+  width: 80rpx;
+  height: 100rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-text {
+  margin-left: 22.3vw;
+  width: 100%;
+  font-size: 8px;
+  color: #666;
+}
+
+.price-text {
+  color: #fff;
+  text-align: center;
+  line-height: 100rpx;
+}

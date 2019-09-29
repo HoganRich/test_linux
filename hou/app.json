@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/task/task",
+    "pages/find/find",
+    "pages/release_task/release_task",
+    "pages/my/my",
+    "pages/choose_city/choose_city",
+    "pages/search/search",
+    "pages/task_list/task_list",
+    "pages/task_detail/task_detail",
+    "pages/clerk_detail/clerk_detail",
+    "pages/hire_clerk/hire_clerk",
+    "pages/my_info/my_info",
+    "pages/my_participation/my_participation",
+    "pages/my_collection/my_collection",
+    "pages/my_skill/my_skill",
+    "pages/my_releasetask/my_releasetask",
+    "pages/my_order/my_order",
+    "pages/web_page/web_page",
+    "pages/deliver_task/deliver_task",
+    "pages/templates/select_model"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#1E9FFF",
+    "list": [
+      {
+        "pagePath": "pages/task/task",
+        "iconPath": "/image/task.png",
+        "selectedIconPath": "/image/task_selected.png",
+        "text": "任务"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "iconPath": "/image/find.png",
+        "selectedIconPath": "/image/find_selected.png",
+        "text": "人才"
+      },
+      {
+        "pagePath": "pages/release_task/release_task",
+        "iconPath": "/image/release_task.png",
+        "selectedIconPath": "/image/release_task_selected.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "/image/my.png",
+        "selectedIconPath": "/image/my_selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,75 @@
+/* pages/find/find.wxss */
+@import "../task_list/task_list.wxss";
+
+.user_resume {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  margin-top: 10rpx;
+}
+
+.useravatar {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin-left: 50rpx;
+  margin-top: 70rpx;
+}
+
+.user_nickname {
+  font-weight: bold;
+  line-height: 200rpx;
+  margin-left: 30rpx;
+  word-break:break-all;
+}
+
+.credit-score {
+  margin-top: -35rpx;
+  width: 45rpx;
+  text-align: center;
+  line-height: 45rpx;
+  height: 45rpx;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 12px;
+  box-shadow: 0 0 30rpx #1e9fff;
+  background-color: #1e9fff;
+}
+
+.expect-salary {
+  position: absolute;
+  color: red;
+  text-indent: 2em;
+  line-height: 250rpx;
+  right: 30rpx;
+}
+
+.resume-info {
+  font-size: 12px;
+  margin-top: -20rpx;
+  line-height: 20rpx;
+  color: #666;
+  margin-left: 30rpx;
+}
+
+.skill-view {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10rpx;
+}
+
+.skill-item {
+  width: 230rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-top: 10rpx;
+  text-align: center;
+  margin-left: 10rpx;
+  background-color: #ececec;
+  color: #666;
+  border-radius: 5rpx;
+  opacity: 0.8;
+}

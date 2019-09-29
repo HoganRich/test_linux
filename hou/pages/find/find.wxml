@@ -1,0 +1,62 @@
+<view class='page'>
+  <view class='row' style='position:fixed;z-index:999;background-color:#FFF;width:100%;height:90rpx;border-bottom:1rpx solid #ECECEC;'>
+    <image src='../../image/location.png' class='location' bindtap='chooseCity'></image>
+    <text class='city' bindtap='chooseCity'>{{city.cityName}}</text>
+    <view class='search-view'>
+      <image src='../../image/search.png' class='search-icon'></image>
+      <input class='search-input' maxlength='50' placeholder="请输入关键字" placeholder-class='placeholder-text' bindconfirm="search" bindinput='setSearch' confirm-type="search" value="{{keyword}}" />
+      <text class='cancel' bindtap='cancel'>取消</text>
+    </view>
+  </view>
+  <view class='screen-view'>
+    <block wx:for="{{screen_arg}}" wx:key="{{index}}">
+      <view class='screen-item' style='width: 50%;' bindtap='setScreen' data-id="{{item.id}}">
+        <text class='{{item.textClass}}'>{{item.text}}</text>
+        <image src='{{item.imgSrc}}' class='screen-img'></image>
+      </view>
+    </block>
+  </view>
+  <block wx:if="{{index==0}}">
+    <view class='screen-arg-view'>
+      <block wx:for="{{typeitems}}" wx:key="{{index}}">
+        <view class='arg-item' bindtap='setSkill' data-id="{{item.id}}" data-name="{{item.name}}">
+          <text>{{item.name}}</text>
+        </view>
+        <view class='arg-item-after'></view>
+      </block>
+    </view>
+  </block>
+  <block wx:elif="{{index==1}}">
+    <view class='screen-arg-view'>
+      <block wx:for="{{sortitems}}" wx:key="{{index}}">
+        <view class='arg-item' bindtap='setSort' data-id="{{item.id}}" data-name="{{item.name}}">
+          <text>{{item.name}}</text>
+        </view>
+        <view class='arg-item-after'></view>
+      </block>
+    </view>
+  </block>
+  <scroll-view scroll-y class='scroll' style='height:{{windowHeight-170}}rpx;' scroll-top="{{scrollTop}}" scroll-with-animation='true' lower-threshold="100" bindscrolltolower="loadMore" bindscroll='setCanLoadMore'>
+    <block wx:for="{{resume_list}}" wx:key="{{index}}">
+      <view class='user_resume' data-userid='{{item.user_id}}' bindtap='toClerkDetail'>
+        <view class='row' style='height:250rpx;width:150rpx;'>
+          <image src='{{item.user_avatar}}' class='useravatar'>
+          </image>
+        </view>
+        <view style='height:250rpx;margin-left:30rpx;'>
+          <text class='user_nickname'>{{item.user_nickname}}</text>
+          <view class='row' style='height:50rpx;text-align: center;'>
+            <text class='resume-info'>{{item.work_years}}年 | {{item.city_name}} | {{item.occupation}}</text>
+          </view>
+        </view>
+        <text class='expect-salary'>￥{{item.expect_salary}}</text>
+      </view>
+    </block>
+    <view wx:if="{{!hasMore}}" class='bottom-tips'>
+      <text style='line-height:80rpx;'>没有数据啦</text>
+    </view>
+  </scroll-view>
+  <view class='scroll-top' bindtap='scrollToTop'>
+    <image src='../../image/top.png' class='top-img'></image>
+  </view>
+</view>

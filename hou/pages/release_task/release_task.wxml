@@ -1,0 +1,72 @@
+<view class="page">
+  <view class="detail">
+
+    <view class="partone">
+      <input class="head" bindinput='getTasktitle' placeholder-class='headpcl' value='{{task_title}}'  maxlength='50' placeholder="标题，请您用一句话描述您的需求">
+      </input>
+    </view>
+    
+
+    <view class="detaildemand"> 
+    {{showvalue}}
+    <textarea class="demand" style="display:{{dp}}" placeholder-class='demandpcl' value='{{realvalue}}' bindinput='inputs' maxlength='5000' placeholder="请您详细描述需求，这将关系到您需求完成的质量"></textarea> 
+    </view>
+    
+    <view class="partthree">
+      <input class="pay" type="digit" bindinput='getTaskmoney'  placeholder-class='paypcl'  value='{{task_money}}' maxlength='11' placeholder="请您填写项目预算金额（元）"></input>
+    </view>
+ </view>
+
+ <view class='choose'>
+    <view class="choosedevelop" bindtap='showdeveloptype'>
+      <text class="develop">选择开发类型 <text class="keytext">{{developtext}}</text></text>
+      <image src="../../image/more.png"></image>
+    </view>
+    <view class="chooselanguage" bindtap='showdeveloplanguage'>
+      <text class="language">选择开发语言 <text class="keytext">{{lantext}}</text> </text>
+      <image src="../../image/more.png"></image>
+    </view>
+    <view class="choosecity" bindtap='jumpcitychoose'>
+      <text class="city">选择城市 <text class="keytext">{{city.cityName}}</text> </text>
+      <image src="../../image/more.png"></image>
+    </view>
+    <view class="choosetime">
+      <picker mode="date" value="{{date}}" start="{{date}}" end="2099-12-31" bindchange="bindDateChange">
+          <view class="picker">
+            选择截止时间 <text class="keytext">{{date}}</text>
+          </view>
+      </picker>
+    </view>
+    <view class="buttonview">
+      <button type="primary" class="buttonsize"  style='background-color:#1E9FFF;'  bindtap="sendinfo">发布需求</button>
+    </view>
+ </view>
+
+</view>
+
+<!-- 遮罩 -->
+<view class="cover" style="display:{{coverdisplay}};height:{{getheight}}" bindtap='hidecover'></view>
+
+<!-- 选择开发类型弹出框 -->
+<view class="developtypeselect" style="display:{{typedisplay}}" bindtap='hidecover'>
+  <radio-group class="radio-group" bindchange="getradiovalue">
+    <label class="radio"  wx:key="{{key}}" wx:for="{{typeitems}}" >
+    <!-- data-id="{{item.id}}" data-value="{{item.name}}" bindtap="getradiovalue" -->
+      <view class="radiodiv">
+        <radio value="{{item.name}}||{{item.id}}" color="#1E9FFF"/>
+        {{item.name}}
+      </view>
+    </label>
+  </radio-group>
+</view>
+<!-- 选择开发语言弹出框 -->
+<view class="developlanguageselect" style="display:{{languagedisplay}}" bindtap='hidecover'>
+<radio-group class="radio-group" bindchange="getradiolan">
+  <label class="radio" wx:key="{{key}}" wx:for="{{languageitems}}" >
+    <view class="radiodiv">
+      <radio value="{{item.name}}||{{item.id}}" color="#1E9FFF"/>
+      {{item.name}}
+    </view>
+  </label>
+</radio-group>
+</view>

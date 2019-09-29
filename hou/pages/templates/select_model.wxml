@@ -1,0 +1,34 @@
+<template name="selectModel">
+  <view class="page">
+    <scroll-view
+        scroll-y
+        style="height: {{scrollHeight}}px;"
+        bindscrolltoupper="upper"
+        bindscrolltolower="lower"
+        bindscroll="scroll"
+    >
+
+    <view class="item" wx:key="{{index}}" wx:for="{{list}}" >
+    <view data-item="{{item}}" data-index="{{index}}" bindlongpress='longPress' style='height:100%;'>
+      <view class="iteminfoa"> 
+          <view class="lefttop">
+            <rich-text class="leftpart">{{item.task_title}}</rich-text>
+          </view>   
+          <view class="righttop"> 
+            <text class="rightpart">￥{{item.task_price}}</text>  
+          </view>   
+        </view>
+        <view class="iteminfob">
+          <text class="postnum">{{item.post_num}}个投标</text>
+          <text class="taskstatus">状态：{{item.status}}</text>
+        </view>
+    </view>
+      
+      
+    </view>
+
+    </scroll-view>
+    
+
+  </view>
+</template>

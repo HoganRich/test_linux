@@ -1,0 +1,17 @@
+<view class="page" style='background-color:#fff;'>
+  <view class='info-item'>
+    <text>请填写您想对该人才说的话：</text>
+  </view>
+  <view class='hr'></view>
+    <textarea class='info-textarea' bindinput='setHireInfo' maxlength='5000' placeholder='您想对该人才说的话，如项目介绍，报酬等等'></textarea>
+  <view class='hr'></view>
+<view class='info-item'>
+    <text>请填写您的微信号，用于人才联系您</text>
+  </view>
+    <view class='hr'></view>
+    <view style='height:100rpx;'>
+       <input style='height:100rpx;margin-left:2em;' bindinput='setWechatNum' placeholder='微信号'></input>
+    </view>
+    <view class='hr'></view>
+      <button type="primary" bindtap='hire' style='background-color:#1E9FFF;' class='submit-btn'>提交</button>
+</view>

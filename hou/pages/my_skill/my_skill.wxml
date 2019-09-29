@@ -1,0 +1,90 @@
+<view class="page" style='background-color:#FFF;height:auto;'>
+  <view class='header'>
+    <image src='{{user_info.user_avatar}}'></image>
+    <text style='line-height:80rpx;font-size:16px;'>{{user_info.user_nickname}}</text>
+  </view>
+  <view class='info-item'>
+    <text class='info-tips' style='margin-left:1em;'>填写工作信息</text>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item'>
+    <text class='info-tips' style='margin-left:2em;'>公司</text>
+    <input class='info-input' bindinput='setInput' data-flag='company' placeholder='曾就职的最知名公司' maxlength='100' value='{{user_resume_info.company}}'></input>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item'>
+    <text class='info-tips' style='margin-left:2em;'>职位</text>
+    <input class='info-input' bindinput='setInput' data-flag='occupation' maxlength='50' value='{{user_resume_info.occupation}}' placeholder='就职职位'></input>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item'>
+    <text class='star'>*</text>
+    <text class='info-tips'>工作经验</text>
+    <input class='info-input' type='number' bindinput='setInput' style='width:100rpx;' placeholder='1~99' data-flag='work_years' maxlength='2' value='{{user_resume_info.work_years}}'></input>
+    <text class='info-tips' style='margin-left:1em;'>年</text>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item'>
+    <text class='star'>*</text>
+    <text class='info-tips'>期望日薪</text>
+    <input class='info-input' bindinput='setInput' style='width:120rpx;' data-flag='expect_salary' placeholder='1~9999' value='{{user_resume_info.expect_salary}}' maxlength='4' type='number'></input>
+    <text class='info-tips' style='margin-left:1em;'>元</text>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item' bindtap='chooseCity'>
+    <text class='info-tips' style='margin-left:1em;'>当前所在城市</text>
+    <text class='info-tips' style='margin-left:2em;color:#1E9FFF;'>{{user_resume_info.city.city_name}}</text>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item'>
+    <text class='info-tips' style='margin-left:1em;'>填写技能信息</text>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item'>
+    <text class='star'>* </text>
+    <text class='info-tips'>技能标签</text>
+  </view>
+  <view class='hr'></view>
+  <view class='skill-view' >
+    <block wx:for="{{skill_item}}" wx:key="{{index}}">
+        <view wx:if="{{item.ischeck==1}}" class="skill-item" style='color:#FFF;background-color:#1E9FFF;' bindtap='setSkill' data-id="{{item.id}}" data-flag="0">{{item.name}}</view>
+        <view  wx:else class="skill-item"  bindtap='setSkill'  data-id="{{item.id}}" data-flag="1">{{item.name}}</view>
+    </block>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item'>
+    <text class='star'>*</text>
+    <text class='info-tips'>技能描述</text>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item' style='height:auto;'>
+    <textarea bindinput='setInput' data-flag='skill_des' class='exp-texarea' value='{{user_resume_info.skill_des}}' placeholder='请填写您所拥有的技术能力，建议200字以上，这样更能吸引雇主的眼球哦' maxlength='5000'></textarea>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item'>
+    <text class='star'>*</text>
+    <text class='info-tips'>项目经验</text>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item' style='height:auto;'>
+    <textarea bindinput='setInput' data-flag='experience_des' class='exp-texarea' value='{{user_resume_info.experience_des}}' placeholder='请填写您曾经做过的项目，让雇主更了解您' maxlength='5000'></textarea>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item'>
+    <text class='info-tips' style='margin-left:2em;'>作品展示链接（Github、CSDN)</text>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item' style='height:auto;'>
+    <textarea bindinput='setInput' data-flag='experience_url' class='exp-texarea' value='{{user_resume_info.experience_url}}' placeholder='请填写您的作品展示链接，可为Github、CSDN等地址' maxlength='500'></textarea>
+  </view>
+  <view class='hr'></view>
+  <!-- <view class='info-item'>
+    <text class='star'>* </text>
+    <text class='info-tips'>您的微信号（很重要,方便雇主联系您）</text>
+  </view> -->
+  <!-- <view class='hr'></view> -->
+  <!-- <view class='hr'></view> -->
+  <button type="primary" bindtap='saveResumInfo' style='background-color:#1E9FFF;' class='submit-btn'>保存</button>
+  <view class='info-item'>
+  </view>
+</view>

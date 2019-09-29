@@ -1,0 +1,12 @@
+<view class='page' style='background-color:#FFF;' wx:if="{{showflag}}">
+  <image src='../../image/logo.png' class='logo'></image>
+  <text class='app_name'>猿众包</text>
+  <text class='co_name'>番茄你个蛋花汤团队</text>
+  <view class='hr' style='  margin-top: 10rpx;'></view>
+  <text class='tips'>程序需要获得以下授权</text>
+  <text class='info_list'> · 获得您的公开信息（昵称、头像等）</text>
+  <view style='flex-direction:row;margin-top:5%;'>
+    <button type='primary' open-type="getUserInfo" style='background-color:#1E9FFF;' bindgetuserinfo="getInfo">允许</button>
+    <button>拒绝</button>
+  </view>
+</view>

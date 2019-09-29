@@ -1,0 +1,43 @@
+<view class='page' style='background-color:#fff;' wx:if="{{taskDetail.user_avatar}}">
+  <view class='user-info'>
+    <image src="{{taskDetail.user_avatar}}" class='user-avatar'></image>
+    <text class='user-nickame'>{{taskDetail.user_nickname}}</text>
+  </view>
+  <view class='task-detail-view'>
+    <view class='task-info'>
+      <text class='task-info-text' style='color:red;'>佣金：￥{{taskDetail.task_price}}元\n</text>
+      <text class='task-info-text' >已投标人数：{{taskDetail.post_num}}人\n</text>
+      <text class='task-info-text'>开发城市：</text>
+      <text class='task-info-text'>{{taskDetail.city_name}}\n</text>
+      <text class='task-info-text'>开发类型：</text>
+      <text class='task-info-text'>{{taskDetail.skill_name}}\n</text>
+      <text class='task-info-text'>开发语言：</text>
+      <text class='task-info-text'>{{taskDetail.language_name}}\n</text>
+      <text class='task-info-text'>发布时间：</text>
+      <text class='task-info-text'>{{taskDetail.release_time}}\n</text>
+      <text class='task-info-text'>期望完成时间：</text>
+      <text class='task-info-text'>{{taskDetail.end_time}}\n</text>
+    </view>
+    <text class='task-title'>{{taskDetail.task_title}}</text>
+    <view class='hr'></view>
+    <view class='task-info' style='margin-bottom:200rpx;'>
+      <text class='task-info-text' selectable='true'>{{taskDetail.task_description}}</text>
+    </view>
+  </view>
+  <view class='bottom-view'>
+    <view class='bottom-item' bindtap='collect'>
+      <view class='bottom-collect'>
+        <image src='{{collect.imgSrc}}' class='bottom-icon'></image>
+        <text class='bottom-text' style='color:{{collect.textColor}}'>{{collect.text}}</text>
+      </view>
+    </view>
+    <view class='bottom-item' style='background-color:#1E9FFF;' bindtap='deliver_task'>
+      <block wx:if="{{taskDetail.deliver_info.length==1}}">
+      <text class='price-text'>修改报价</text>
+      </block>
+      <block wx:else>
+      <text class='price-text'>投标</text>
+      </block>
+    </view>
+  </view>
+</view>

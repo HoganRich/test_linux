@@ -1,0 +1,33 @@
+<!--pages/search/search.wxml-->
+<view class="page" style='background-color:#FFF;'>
+  <view class='head'>
+    <view class='search-view'>
+      <image src='../../image/search.png' class='search-icon'></image>
+      <input class='search-input' type="text" bindconfirm="search" maxlength='50' placeholder="搜索任务" placeholder-class='placeholder-text' confirm-type="search" value='{{keyword}}' />
+      <text class='cancel' bindtap='cancel'>取消</text>
+    </view>
+  </view>
+  <view class="suggestion">
+    <text>任务推荐</text>
+    <view class='recommend-view'>
+    <block  wx:for="{{recommendTask}}" wx:key="{{index}}">
+      <view bindtap='search' class='task-item' data-key="{{item.task_title}}">
+        {{item.task_title}}
+      </view>
+    </block>
+    </view>
+  </view>
+
+  <view class="historysearch">
+    <text>历史记录</text>
+    <image src="../../image/del.png" class="del-icon" bindtap='deleteAll'></image>
+  </view>
+
+  <view class="keynameitem" wx:for="{{searchkey}}" wx:key="{{index}}">
+    <text class='key-name' bindtap='historysearch' data-key="{{item}}">{{item}}</text>
+    <image bindtap="delete" data-index="{{index}}" src="../../image/cancel.png" class="can-icon"></image>
+  </view>
+
+
+
+</view>

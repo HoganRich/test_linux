@@ -1,0 +1,43 @@
+<view class="page" style='background-color:#fff;'>
+  <view class='deliver-info'>
+    <!-- 任务报价 -->
+    <view class="taskvalue">
+      <text class="taskvaluetail">任务报价</text>
+      <text class="unit">元</text>
+      <input bindinput='taskvaluehandler' bindblur="lostblur" placeholder='{{taskvaluetext}}' value='{{deliver_info.deliver_money}}' class="taskvalueph" type="digit" maxlength='5' />
+    </view>
+    <!-- 工作周期 -->
+    <view class="worktime">
+      <text class="worktimetail">工作周期</text>
+      <text class="unit">天</text>
+      <input bindinput='worktimehandler' bindblur="lostblur" placeholder='{{worktimetext}}' class="worktimeph" value='{{deliver_info.time_spent}}' type="digit" maxlength='4'></input>
+    </view>
+    <!-- 所在地区 -->
+    <view class="atlocation" bindtap='jumpcitychoose'>
+      <text class="city">所在地区</text>
+      <!-- 内容展示为尾部 -->
+      <view class="atlocationtail">
+        <block wx:if="{{deliver_info.city_name}}">
+          <text class="keytext">{{city.cityName}}</text>
+        </block>
+        <block wx:else>
+          <text class="keytext">{{city.cityName}}</text>
+        </block>
+        <image src="../../image/more.png"></image>
+      </view>
+    </view>
+    <!-- 报价说明 -->
+    <view class="valuedescrible">
+      <textarea placeholder='报价说明,越清晰具体,越有利于您的投标' class="valuedescribleph" bindinput='getvaluedescrible' value='{{deliver_info.deliver_description}}' maxlength='500'></textarea>
+      <view class="warn500enough">{{wordnum}}</view>
+    </view>
+    <view class='taskvalue' style='margin-top:-100rpx;'>
+     <text class="taskvaluetail">您的微信号</text>
+      <input bindinput='setwechat'  placeholder='用于雇主联系您' value='{{deliver_info.wechat_num}}' class="taskvalueph" maxlength='36' />
+    </view>
+    <!-- 提交按钮 -->
+    <view class="postrequest" >
+      <button type='primary' style='background-color:#1E9FFF;width:95%;margin-left:2.5%;' bindtap="sendreq">提交</button>
+    </view>
+  </view>
+</view>

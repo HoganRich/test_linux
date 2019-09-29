@@ -1,0 +1,26 @@
+<view class='page' style='background-color:#FFF;'>
+  <view class='head'>
+    <view class='row'>
+      <view class='search-view'>
+        <image src='../../image/search.png' class='search-icon'></image>
+        <input class='search-input' bindinput="search" maxlength='50' placeholder="请输入城市名" placeholder-class='placeholder-text' value='{{keyword}}' />
+      </view>
+      <text class='cancel' bindtap='cancel'>取消</text>
+    </view>
+    <view class='hot'>
+      <block wx:for="{{hot}}" wx:key="{{index}}">
+        <text class='hot_city' hover-class='hot_city_active' data-city='{{item}}' bindtap='setCity'>{{item.cityName}}</text>
+      </block>
+    </view>
+  </view>
+  <view class='citys'>
+    <block wx:for="{{citys}}" wx:key="{{index}}">
+      <block wx:if="{{item.cityId!=-1}}">
+        <text class='city' data-city='{{item}}' bindtap='setCity'>{{item.cityName}}</text>
+      </block>
+      <block wx:else>
+        <text class='city' style='color:#1E9FFF;font-size:16px;' data-id='{{item.cityId}}'>{{item.cityName}}</text>
+      </block>
+    </block>
+  </view>
+</view>

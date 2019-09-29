@@ -1,0 +1,73 @@
+<view class="page" style='background-color:#FFF;height:auto;'>
+  <view class='header'>
+    <image src='{{user_resume_info.user_avatar}}'></image>
+    <text style='line-height:80rpx;font-size:16px;'>{{user_resume_info.user_nickname}}</text>
+  </view>
+  <view class='info-item'>
+    <text class='info-tips' style='margin-left:1em;'>工作信息</text>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item'>
+    <text class='info-input'>公司：{{user_resume_info.company}}</text>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item'>
+    <text class='info-input'>职位：{{user_resume_info.occupation}}</text>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item'>
+    <text class='info-input'>工作经验：{{user_resume_info.work_years}}年</text>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item'>
+    <text class='info-input' style='color:red;'>期望日薪：￥{{user_resume_info.expect_salary}}</text>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item'>
+    <text class='info-tips' style='margin-left:1em;'>当前所在城市：</text>
+    <text class='info-tips' style='color:#1E9FFF'>{{user_resume_info.city.city_name}}</text>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item'>
+    <text class='info-tips' style='margin-left:1em;'>技能信息</text>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item'>
+    <text class='info-tips' style='margin-left:2em;'>技能标签</text>
+  </view>
+  <view class='hr'></view>
+  <view class='skill-view'>
+    <block wx:for="{{skill_item}}" wx:key="{{index}}">
+      <view wx:if="{{item.ischeck==1}}" class="skill-item">{{item.name}}</view>
+      <!-- <view wx:else class="skill-item">{{item.name}}</view> -->
+    </block>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item'>
+    <text class='info-tips' style='margin-left:2em;'>技能描述</text>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item' style='height:auto;'>
+    <text class='des' selectable='true'>{{user_resume_info.skill_des}}</text>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item'>
+    <text class='info-tips' style='margin-left:2em;'>项目经验</text>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item'style='height:auto;' >
+    <text class='des' selectable='true'>{{user_resume_info.experience_des}}</text>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item'>
+    <text class='info-tips' style='margin-left:2em;'>作品展示链接（Github、CSDN)</text>
+  </view>
+  <view class='hr'></view>
+  <view class='info-item' >
+    <text class='des' selectable='true' style='height:auto;' >{{user_resume_info.experience_url}}</text>
+  </view>
+  <view class='hr'></view>
+  <button type="primary" bindtap='hire' style='background-color:#1E9FFF;' class='submit-btn'>聘用</button>
+  <view class='info-item'>
+  </view>
+</view>

@@ -1,0 +1,22 @@
+.page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 14px;
+  background: #ECECEC; 
+}
+.hr{
+  width: 90%;
+  height: 1rpx;
+  margin-left: 5%;
+  background-color: #ECECEC;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+}
